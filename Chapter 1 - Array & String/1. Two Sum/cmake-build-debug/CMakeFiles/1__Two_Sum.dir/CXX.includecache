@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /cygdrive/c/Files/Workspaces/CLion/LeetCode-Q50-CPP/Chapter 1 - Array & String/1. Two Sum/main.cpp
-iostream
--
 bits/stdc++.h
 -
 
