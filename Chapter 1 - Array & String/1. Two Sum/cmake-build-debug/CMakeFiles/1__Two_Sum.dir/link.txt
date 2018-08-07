@@ -1,1 +1,0 @@
-/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/1__Two_Sum.dir/main.cpp.o  -o 1__Two_Sum.exe -Wl,--out-implib,lib1__Two_Sum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
