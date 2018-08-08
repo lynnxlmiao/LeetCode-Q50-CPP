@@ -13,4 +13,18 @@ public:
 
         return dp[n-1]
     }
+
+	int uniquePaths2(int m, int n)
+	{
+		int num = 1, denom = 1;
+		int small = m > n ? n : m;
+
+		for (int i = 1; i < small; ++i)
+		{
+			num *= m + n - 1 - i;
+			denom *= i;
+		}
+
+		return (int)(num / denom);
+	}
 };
