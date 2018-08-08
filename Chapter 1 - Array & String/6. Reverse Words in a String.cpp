@@ -46,3 +46,18 @@ public:
 		s.resize(storeIndex);
 	}
 };
+
+int main()
+{
+	string sInput;
+	cout << "What is your target number?" << endl;
+
+	getline(cin, sInput);
+
+	reverseWords2(sInput);
+
+	cout << sInput << endl;
+
+	system("pause");
+	return 0;
+}
