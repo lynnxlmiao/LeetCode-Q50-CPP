@@ -36,7 +36,8 @@ public:
 				int j = i;
 				while (j < n && s[j] != ' ')
 				{
-					s[storeIndex++] = s[j++];
+					storeIndex++;
+					j++;
 				}
 
 				reverse(s.begin() + storeIndex - (j - i), s.begin() + storeIndex);
