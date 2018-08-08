@@ -47,15 +47,16 @@ public:
 	}
 };
 
-int main() 
+int main()
 {
 	string sInput;
-	cout << "What is your target number?" << endl;
+	cout << "Input:" << endl;
 
 	getline(cin, sInput);
 
 	reverseWords2(sInput);
 
+	cout << "Output:" << endl;
 	cout << sInput << endl;
 
 	system("pause");
