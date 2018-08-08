@@ -36,8 +36,7 @@ public:
 				int j = i;
 				while (j < n && s[j] != ' ')
 				{
-					storeIndex++;
-					j++;
+					s[storeIndex++] = s[j++];
 				}
 
 				reverse(s.begin() + storeIndex - (j - i), s.begin() + storeIndex);
@@ -48,7 +47,7 @@ public:
 	}
 };
 
-int main()
+int main() 
 {
 	string sInput;
 	cout << "What is your target number?" << endl;
