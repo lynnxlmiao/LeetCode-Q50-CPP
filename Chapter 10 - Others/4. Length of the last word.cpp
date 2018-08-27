@@ -15,10 +15,7 @@ int main()
 
 	while (i >= 0)
 	{
-		if (!isalpha(sInput[i]))
-		{
-
-		}
+		if (!isalpha(sInput[i])) {}
 		else
 		{
 			iCount++;
